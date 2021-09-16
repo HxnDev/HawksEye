@@ -8,6 +8,7 @@ HospitalAid is a tool for hospitals, aiming to take advantage of their existing 
 It would be impractical and unreliable for such an oversight to be done manually - HospitalAid, however, would be running 24/7 tirelessly and making sure no incident is missed. This would speed up the hospital efficiency without adding on any extra burden on the staff.
 
 ## Features
+
 ### Implemented:
 - Fainting Detection
 - Choking Detection
