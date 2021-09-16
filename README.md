@@ -37,6 +37,7 @@ It would be impractical and unreliable for such an oversight to be done manually
 ## Requirements
 
 ## Tools Used
+Project is built in Python.
 
 ## Contact Information
 For any queries, feel free to contact any of the following:
