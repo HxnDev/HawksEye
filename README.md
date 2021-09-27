@@ -13,7 +13,6 @@ It would be impractical and unreliable for such an oversight to be done manually
 - Fainting Detection
 - Choking Detection
 - Empty Station Detection
-- Injection SOPs Monitoring
 - Drowsiness Detection
 - COVID SOPs Monitoring:
   - Social Distancing Detection
@@ -22,6 +21,7 @@ It would be impractical and unreliable for such an oversight to be done manually
 
 ### Pending:
 - Vomiting Detection
+- Injection SOPs Monitoring
 
 ## Datasets
 ### Fainting Detection:
