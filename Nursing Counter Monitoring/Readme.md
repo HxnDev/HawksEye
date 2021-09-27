@@ -1,5 +1,7 @@
 # Nursing Counter Monitoring
 
+![Empty Counter Detection](https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring/vastu-1581470219.jpg)
+
 ## Description:
 In this feature, we designed a model that monitors nursing station and the reception of the hospital. Our model monitors both the nursing stations and the reception to detect if its empty at any point in time. We know that as hospitals are busy and incoming patients need immediate medical attention, hence it's mandatory that a person/nurse should always be available. Hence this feature. Incase our model detects an empty station, it will create a log of the abnormality for the administration to look into.
 
