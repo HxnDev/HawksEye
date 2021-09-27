@@ -28,4 +28,20 @@ For pre-processing and augumentation, following actions were performed:
 - Brightness from -19% to +19%
 - Grayscale applied to 20% of the images
 - Hue between -17% to +17%
+
+After applying all the above our dataset consisted of the following:
+- Training Set: 2.2k images (88%)
+- Validation Set: 206 (8%)
+- Test Set: 103 (4%)
+
+#### Download Format:
+The downloaded format of our dataset is "YOLOv4 PyTorch Txt Format".
+
+#### Links to Dataset:
+- Github Link: [Nursing Counter Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Nursing%20Counter%20Monitoring/dataset) 
+- Drive Link: [Nursing Counter Dataset - Google Drive](https://drive.google.com/drive/u/1/folders/1rMW2RIcD7rUYIvIOQ-gMUguEaf8eb14j)
+
+
 ## Model Training:
+For Model Training, we are using Google Colab.
+--- To be Done ---
