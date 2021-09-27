@@ -47,4 +47,5 @@ The downloaded format of our dataset is "YOLOv4 PyTorch Txt Format".
 
 ## Model Training:
 For Model Training, we are using Google Colab.
+
 --- To be Done ---
