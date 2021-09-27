@@ -3,10 +3,10 @@
 ![Face Mask Detection](https://github.com/HxnDev/HospitalAid/blob/main/Mask%20Detection/mask-detection-sample.jpg)
 
 ## Description:
-In this feature, we designed a model that monitors the hospital. Our model monitors the hospital for facial mask. It detects facial mask on the patients, doctors and staff. The idea behind this project is that we have seen that throughout this pandemic, doctors were the most effected as they had to deal with patients not knowing if they are COVID positive or not and many of the doctors did contract the virus mainly because of patients/doctors not following proper SOPs such as masks and gloves.
+In this feature, we designed a model that can monitor a hospital. Our model monitors the hospital, and observes the appropriate use of facial masks. It detects facial masks on the patients, doctors and staff. The idea behind this project? We have seen that throughout the COVID-19 pandemic, doctors were the most affected as they had to deal with infected patients and risk being infected themselves. Patients and doctors not following proper mask/gloves SOPs poses a big risk for doctors. 
 
 ## Dataset:
-For this, we are using the publicly available facial mask detection dataset available at [Roboflow](https://roboflow.com/). The dataset consists of random images of people wearing masks.
+For this we are using the publicly available facial mask detection dataset available at [Roboflow](https://roboflow.com/). The dataset consists of random images of people wearing masks.
 
 Our dataset has been annotated using [Roboflow](https://roboflow.com/) which not only annotates the data but also pre-processes it and auguments it. 
 
@@ -34,4 +34,5 @@ The downloaded format of our dataset is "YOLOv4 PyTorch Txt Format".
 
 ## Model Training:
 For Model Training, we are using Google Colab.
+
 --- To be Done ---
