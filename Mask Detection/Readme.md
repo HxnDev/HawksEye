@@ -25,7 +25,7 @@ After applying all the above our dataset consisted of the following:
 The downloaded format of our dataset is "YOLOv4 PyTorch Txt Format".
 
 #### Links to Dataset:
-- Github Link: [Nursing Counter Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Mask%20Detection/dataset) 
+- Github Link: [Nursing Counter Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Mask%20Detection/data) 
 - Drive Link: [Nursing Counter Dataset - Google Drive](https://drive.google.com/drive/u/1/folders/1SupIglExrGNMHuxGgx121KPteIBTHzNm)
 - Roboflow Link: [Nursing Counter Dataset - Roboflow](https://app.roboflow.com/hassan-shahzad/mask-wearing-fgz3o/overview)
 
