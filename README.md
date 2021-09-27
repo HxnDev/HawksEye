@@ -12,7 +12,7 @@ It would be impractical and unreliable for such an oversight to be done manually
 ### Implemented:
 - Fainting Detection
 - Choking Detection
-- Empty Station Detection
+- [Nursing Counter Detection](https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring)
 - Drowsiness Detection
 - COVID SOPs Monitoring:
   - Social Distancing Detection
@@ -22,27 +22,6 @@ It would be impractical and unreliable for such an oversight to be done manually
 ### Pending:
 - Vomiting Detection
 - Injection SOPs Monitoring
-
-## Datasets
-### Fainting Detection:
-### Choking Detection:
-For Choking Detection, we are using video datasets. The dataset is divided into two parts:
-  - Choking
-  - Not Choking
- 
-For "Choking", we recorded the videos ourselves under strict supervision. There are 5 different actors under different lighting and backgrounds. There are a total of 32 videos for this true dataset. 
-
-Similarly, for "Not Choking", we took dataset of coughing as mostly its mixed up with choking and we wanted to ensure that the model knows the difference between choking and coughing. There are a total of 24 videos recorded by 3 different actors (8 videos each).
-
-The dataset for Choking can be found at the link: [Choking Dataset](https://drive.google.com/drive/folders/175U91a7-BALnu-zo0oX3j1vMMDL6ZfMi?usp=sharing). As this is a self-created dataset, hence we reserve full rights to this dataset along with its further distribution.
-
-### Vomiting Detection:
-### Empty Station Detection:
-### Injection SOPs Monitoring:
-### Drowsiness Detection:
-### Social Distancing Detection:
-### Mask Detection:
-### Gloves Detection:
 
 ## Requirements
 
