@@ -3,10 +3,10 @@
 ![Empty Counter Detection](https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring/vastu-1581470219.jpg)
 
 ## Description:
-In this feature, we designed a model that monitors nursing station and the reception of the hospital. Our model monitors both the nursing stations and the reception to detect if its empty at any point in time. We know that as hospitals are busy and incoming patients need immediate medical attention, hence it's mandatory that a person/nurse should always be available. Hence this feature. Incase our model detects an empty station, it will create a log of the abnormality for the administration to look into.
+It is critical for a hospital reception and nursing station to be manned at all times, so any patient may be attended to in their time of need. Our model is trained to monitor these environments (or similar..) and observe the presence of people. If the reception or stations are empty, then a note will be made of the incident and reported to the administration.
 
 ## Dataset:
-For this, we are using a combination of two different datsets. 
+For this we are using a combination of two different datsets:
 - Hospital CCTV Footage of Reception
 - Manually recorded videos of Nursing Counter.
 
@@ -18,7 +18,7 @@ The nursing counter one was recorded manually under proper supervision and we no
 - 4 people at the station
 - Random number of people sitting and standing at the station
 
-Hence, we have a diversity in our data that covers every possible scenerio. Our dataset has been annotated using [Roboflow](https://roboflow.com/) which not only annotates the data but also pre-processes it and auguments it. 
+The diversity and variety of our dataset allows for a better, smarter model.Our dataset has been annotated using [Roboflow](https://roboflow.com/) - additionally, we also augmented it to increase size and variety of training data.
 
 For pre-processing and augumentation, following actions were performed:
 
