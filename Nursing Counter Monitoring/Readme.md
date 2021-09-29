@@ -37,7 +37,7 @@ After applying all the above our dataset consisted of the following:
 - Test Set: 103 (4%)
 
 #### Download Format:
-The downloaded format of our dataset is "YOLOv4 PyTorch Txt Format".
+The downloaded format of our dataset is "YOLOv3 Darknet Txt Format".
 
 #### Links to Dataset:
 - Github Link: [Nursing Counter Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Nursing%20Counter%20Monitoring/dataset) 
