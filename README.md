@@ -31,9 +31,8 @@ Project is built in Python.
 ## Contact Information
 For any queries, feel free to contact any of the following:
 
-Hassan Shahzad : chhxnshah@gmail.com
-Sana Ali : sanakahnn@gmail.com
-
+<b> Hassan Shahzad </b> : chhxnshah@gmail.com <br>
+<b> Sana Khan </b> : sanakahnn@gmail.com
 
 ## References
 - Gul, M. A., Yousaf, M. H., Nawaz, S., Ur Rehman, Z., & Kim, H. W. (2020). Patient monitoring by abnormal human activity recognition based on CNN architecture. Electronics, 9(12), 1993. https://doi.org/10.3390/electronics9121993 
