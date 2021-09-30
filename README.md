@@ -2,14 +2,14 @@
 
 ![Logo](https://github.com/HxnDev/HospitalAid/blob/main/Logo/Hospital%20Aid%20Logo.png)
 
-## Introduction:
+## Introduction
 HospitalAid is a tool for hospitals, aiming to take advantage of their existing surveillance system by monitoring and analysing the live video feed to detect medical abnormalities or incidents. This ensures that in the event of such a situation, the hospital could be immedately be notified so the staff could attend to the situation. 
 
 It would be impractical and unreliable for such an oversight to be done manually - HospitalAid, however, would be running 24/7 tirelessly and making sure no incident is missed. This would speed up the hospital efficiency without adding on any extra burden on the staff.
 
 ## Features
 
-### Implemented:
+### Implemented
 - Fainting Detection
 - Choking Detection
 - [Nursing Counter Detection](https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring)
@@ -19,7 +19,7 @@ It would be impractical and unreliable for such an oversight to be done manually
   - [Mask Detection](https://github.com/HxnDev/HospitalAid/tree/main/Mask%20Detection)
   - Gloves Detection
 
-### Pending:
+### Pending
 - Vomiting Detection
 - Injection SOPs Monitoring
 
@@ -32,7 +32,6 @@ Project is built in Python.
 For any queries, feel free to contact any of the following:
 
 Hassan Shahzad : chhxnshah@gmail.com
-
 Sana Ali : sanakahnn@gmail.com
 
 
