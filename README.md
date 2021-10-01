@@ -28,11 +28,15 @@ It would be impractical and unreliable for such an oversight to be done manually
 ## Tools Used
 Project is built in Python.
 
-## Contact Information
-For any queries, feel free to contact any of the following:
-
-<b> Hassan Shahzad </b> : chhxnshah@gmail.com <br>
-<b> Sana Khan </b> : sanakahnn@gmail.com
+## 📫 Contact Me: 
+<p align="center">
+  <a href="http://www.hxndev.com/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
+	<a href="mailto:chhxnshah@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
+	<a href="https://github.com/HxnDev"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
+	<a href="https://www.linkedin.com/in/hassan-shahzad-2a6617212/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
+	<a href="https://www.instagram.com/hxn_photography/?hl=en"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
+	
+</p>
 
 ## References
 - Gul, M. A., Yousaf, M. H., Nawaz, S., Ur Rehman, Z., & Kim, H. W. (2020). Patient monitoring by abnormal human activity recognition based on CNN architecture. Electronics, 9(12), 1993. https://doi.org/10.3390/electronics9121993 
