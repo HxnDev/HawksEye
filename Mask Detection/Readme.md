@@ -1,6 +1,8 @@
 # Mask Detection
 
-![Face Mask Detection](https://github.com/HxnDev/HospitalAid/blob/main/Mask%20Detection/mask-detection-sample.jpg)
+<p align="center">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Mask%20Detection/mask-detection-sample.jpg">
+</p>
 
 ## Description:
 In this feature, we designed a model that can monitor a hospital. Our model monitors the hospital, and observes the appropriate use of facial masks. It detects facial masks on the patients, doctors and staff. The idea behind this project? We have seen that throughout the COVID-19 pandemic, doctors were the most affected as they had to deal with infected patients and risk being infected themselves. Patients and doctors not following proper mask/gloves SOPs poses a big risk for doctors. 
