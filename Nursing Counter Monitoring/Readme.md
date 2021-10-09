@@ -1,6 +1,8 @@
 # Nursing Counter Monitoring
 
-![Empty Counter Detection](https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring/vastu-1581470219.jpg)
+<p align="center">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring/vastu-1581470219.jpg">
+</p>
 
 ## Description:
 It is critical for a hospital reception and nursing station to be manned at all times, so any patient may be attended to in their time of need. Our model is trained to monitor these environments (or similar..) and observe the presence of people. If the reception or stations are empty, then a note will be made of the incident and reported to the administration.
