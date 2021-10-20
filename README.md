@@ -54,3 +54,5 @@ Project is built in Python.
 - Cabani, A., Hammoudi, K., Behnhabiles, H., & Melkemi, M. (2021). MaskedFace-Net – A dataset of correctly/incorrectly masked face images in the context of COVID-19. Smart Health, 19. https://doi.org/https://doi.org/10.1016/j.smhl.2020.100144
 - Redmon, J., & Farhadi, A. (2018). (tech.). YOLOv3: An Incremental Improvement. Retrieved from https://arxiv.org/abs/1804.02767. 
 - Singh, S., Ahuja, U., Kumar, M., Kumar, K., & Sachdeva, M. (2021). Face mask detection using yolov3 and faster R-CNN models: COVID-19 environment. Multimedia Tools and Applications, 80(13), 19753–19768. https://doi.org/10.1007/s11042-021-10711-8 
+- Fall detection. imvia. (2020, April 20). https://imvia.u-bourgogne.fr/en/database/fall-detection-dataset-2.html
+- Loey, M. (2021, February 15). COVID-19 Medical Face Mask Detection Dataset. kaggle. https://www.kaggle.com/mloey1/medical-face-mask-detection-dataset.
