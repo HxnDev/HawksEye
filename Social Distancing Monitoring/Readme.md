@@ -48,5 +48,5 @@ The downloaded format of our dataset is "YOLOv3 Darknet Txt Format".
 
 
 ## Implementation
-Our model was built using the darknet implementation of YOLOv3. Environment used was Google Colab, with Tesla K80 as the GPU.
+Our model was built using the PyTorch implementation of YOLOv5. Environment used was Google Colab, with Tesla K80 as the GPU.
 The model was trained to detect the presence of 1 or more people by training it on a fully annotated dataset of empty as well as occupied nursing stations and receptions.
