@@ -15,7 +15,7 @@ It would be impractical and unreliable for such an oversight to be done manually
 - [Nursing Counter Detection](https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring)
 - Drowsiness Detection
 - COVID SOPs Monitoring:
-  - Social Distancing Detection
+  - [Social Distancing Detection](https://github.com/HxnDev/HospitalAid/tree/main/Social%20Distancing%20Monitoring)
   - [Mask Detection](https://github.com/HxnDev/HospitalAid/tree/main/Mask%20Detection)
   - Gloves Detection
 
