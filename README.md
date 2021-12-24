@@ -10,7 +10,7 @@ It would be impractical and unreliable for such an oversight to be done manually
 ## Features
 
 ### Implemented
-- Fainting Detection
+- [Fainting Detection](https://github.com/HxnDev/HospitalAid/tree/main/Fainting%20Detection)
 - Choking Detection
 - [Nursing Counter Detection](https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring)
 - Drowsiness Detection
