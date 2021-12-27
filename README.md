@@ -26,7 +26,17 @@ It would be impractical and unreliable for such an oversight to be done manually
 ## Requirements
 
 ## Tools Used
-Project is built in Python.
+<p align="center">
+<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python" width="60" height="60"/> 
+<img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" alt="Java" width="60" height="60"/> 
+<img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React"  width="60" height="60"/> 
+<img src="https://cdn.worldvectorlogo.com/logos/flutter.svg" alt="Flutter"  width="60" height="60"/> 
+<img src="https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg" alt="TensorFlow"  width="60" height="60"/> 
+<img src="https://cdn.worldvectorlogo.com/logos/numpy-1.svg" alt="NumPy"  width="60" height="60"/> 
+<img src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" alt="Firebase"  width="60" height="60"/> 
+<img src="https://cdn.worldvectorlogo.com/logos/android-4.svg" alt="Android"  width="60" height="60"/> 
+<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" alt="Github" width="60" height="60"/> 
+												      </p>
 
 ## 📫 Contact Sana: 
 <p align="center">
