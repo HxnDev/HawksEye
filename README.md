@@ -11,7 +11,7 @@ It would be impractical and unreliable for such an oversight to be done manually
 
 ### Implemented
 - [Fainting Detection](https://github.com/HxnDev/HospitalAid/tree/main/Fainting%20Detection)
-- Choking Detection
+- [Choking Detection](https://github.com/HxnDev/HospitalAid/tree/main/Choking%20Detection)
 - [Nursing Counter Detection](https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring)
 - Drowsiness Detection
 - COVID SOPs Monitoring:
