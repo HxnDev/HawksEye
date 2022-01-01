@@ -24,6 +24,7 @@ It would be impractical and unreliable for such an oversight to be done manually
 - Injection SOPs Monitoring
 
 ## Requirements
+For inference, any system with Python 2.x/3.x will do. For training, a CUDA-enabled GPU is required.
 
 ## Tools Used
 <p align="center">
