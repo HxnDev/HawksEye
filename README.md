@@ -1,4 +1,4 @@
-# Hospital Aid
+# Hospital Aid!
 
 ![Logo](https://github.com/HxnDev/HospitalAid/blob/main/Logo/Hospital%20Aid%20Logo.png)
 
@@ -19,9 +19,6 @@ It would be impractical and unreliable for such an oversight to be done manually
   - [Mask Detection](https://github.com/HxnDev/HospitalAid/tree/main/Mask%20Detection)
   - Gloves Detection
 
-### Pending
-- Vomiting Detection
-- Injection SOPs Monitoring
 
 ## Requirements
 For inference, any system with Python 2.x/3.x will do. For training, a CUDA-enabled GPU is required.
