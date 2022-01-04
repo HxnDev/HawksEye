@@ -1,4 +1,4 @@
-# Hospital Aid!
+# Hospital Aid
 
 ![Logo](https://github.com/HxnDev/HospitalAid/blob/main/Logo/Hospital%20Aid%20Logo.png)
 
