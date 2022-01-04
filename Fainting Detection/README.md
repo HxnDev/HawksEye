@@ -1,1 +1,0 @@
-<fainting detection description - TODO>
