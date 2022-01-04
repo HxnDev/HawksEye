@@ -10,14 +10,13 @@ It would be impractical and unreliable for such an oversight to be done manually
 ## Features
 
 ### Implemented
-- [Fainting Detection](https://github.com/HxnDev/HospitalAid/tree/main/Fainting%20Detection)
-- [Choking Detection](https://github.com/HxnDev/HospitalAid/tree/main/Choking%20Detection)
-- [Nursing Counter Detection](https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring)
-- Drowsiness Detection
-- COVID SOPs Monitoring:
-  - [Social Distancing Detection](https://github.com/HxnDev/HospitalAid/tree/main/Social%20Distancing%20Monitoring)
-  - [Mask Detection](https://github.com/HxnDev/HospitalAid/tree/main/Mask%20Detection)
-  - Gloves Detection
+- [Fainting Detection](https://github.com/HxnDev/HospitalAid/tree/main/Features/Fainting%20Detection)
+- [Choking Detection](https://github.com/HxnDev/HospitalAid/tree/main/Features/Choking%20Detection)
+- [Nursing Counter Detection](https://github.com/HxnDev/HospitalAid/tree/main/Features/Nursing%20Counter%20Monitoring)
+- [Drowsiness Detection](https://github.com/HxnDev/HospitalAid/tree/main/Features/Drowsiness%20Detection)
+- [Social Distancing Monitoring](https://github.com/HxnDev/HospitalAid/tree/main/Features/Social%20Distancing%20Monitoring)
+- [Face Mask Detection](https://github.com/HxnDev/HospitalAid/tree/main/Features/Face%20Mask%20Monitoring)
+- [Hand Gloves Monitoring](https://github.com/HxnDev/HospitalAid/tree/main/Features/Hand%20Gloves%20Monitoring)
 
 
 ## Requirements
