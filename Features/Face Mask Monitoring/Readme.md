@@ -1,7 +1,7 @@
 # Mask Detection
 
 <p align="center">
-  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Mask%20Detection/Extras/mask-detection-sample.jpg">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Face%20Mask%20Monitoring/Extras/mask-detection-sample.jpg">
 </p>
 
 ## Description:
@@ -19,22 +19,22 @@ For pre-processing and augumentation, following actions were performed:
 - Resize to 416x416 (Stretch)
 #### Augumentation:
 - Brightness from -25% to +25%
+- Horizontal Flip
+- Rotation between -5% and +5%
+- Grayscaling 10% of the images
+- Hue between -10% and +10%
+- Saturation between -7% and +7%
+- Exposure between -6% and +6%
 
-After applying all the above our dataset consisted of the following:
-- Training Set: 309 images (88%)
-- Validation Set: 30 (8%)
-- Test Set: 16 (4%)
 
 #### Download Format:
-The downloaded format of our dataset is "YOLOv4 PyTorch Txt Format".
+The downloaded format of our dataset is "YOLOv5 PyTorch Txt Format".
 
 #### Links to Dataset:
-- Github Link: [Nursing Counter Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Mask%20Detection/data) 
-- Drive Link: [Nursing Counter Dataset - Google Drive](https://drive.google.com/drive/u/1/folders/1SupIglExrGNMHuxGgx121KPteIBTHzNm)
-- Roboflow Link: [Nursing Counter Dataset - Roboflow](https://app.roboflow.com/hassan-shahzad/mask-wearing-fgz3o/overview)
-
+- Github Link: [Face Mask Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Features/Face%20Mask%20Monitoring/Dataset)
 
 ## Model Training:
-For Model Training, we are using Google Colab.
+Once we were done with the pre-processing of dataset, the next thing we needed to do was to train our model and design an implementation logic for our model. The logic that we decided was that we had 2 classes : Mask and No-Mask. Our model detects faces and then passes them through the classifier. It will predict the class above a certain threshold which we had set to 0.5 for better predictions.
 
---- To be Done ---
+## Demo Video:
+![Alt Text](https://github.com/HxnDev/HospitalAid/blob/main/Features/Face%20Mask%20Monitoring/Extras/mask.gif)
