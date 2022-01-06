@@ -1,7 +1,7 @@
 # Nursing Counter Monitoring
 
 <p align="center">
-  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Nursing%20Counter%20Monitoring/Extras/vastu-1581470219.jpg">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Nursing%20Counter%20Monitoring/Extras/vastu-1581470219.jpg">
 </p>
 
 ## Description:
@@ -33,20 +33,15 @@ For pre-processing and augumentation, following actions were performed:
 - Grayscale applied to 20% of the images
 - Hue between -17% to +17%
 
-After applying all the above our dataset consisted of the following:
-- Training Set: 2.2k images (88%)
-- Validation Set: 206 (8%)
-- Test Set: 103 (4%)
-
 #### Download Format:
-The downloaded format of our dataset is "YOLOv3 Darknet Txt Format".
+The downloaded format of our dataset is "YOLOv5 PyTorch Txt Format".
 
 #### Links to Dataset:
-- Github Link: [Nursing Counter Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Nursing%20Counter%20Monitoring/dataset) 
-- Drive Link: [Nursing Counter Dataset - Google Drive](https://drive.google.com/drive/u/1/folders/1rMW2RIcD7rUYIvIOQ-gMUguEaf8eb14j)
-- Roboflow Link: [Nursing Counter Dataset - Roboflow](https://app.roboflow.com/project/empty-station-detection/7)
+- Github Link: [Nursing Counter Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Features/Nursing%20Counter%20Monitoring/Dataset) 
 
 
 ## Implementation
-Our model was built using the PyTorch implementation of YOLOv5. Environment used was Google Colab, with Tesla K80 as the GPU.
-The model was trained to detect the presence of 1 or more people by training it on a fully annotated dataset of empty as well as occupied nursing stations and receptions.
+Once we were done with the pre-processing of dataset, the next thing we needed to do was to train our model and design an implementation logic for our model. The logic that we decided was that if even a single person is detected on the counter, then this will be a normal activity for us but if our model is unable to detect any person for a reserved period of time (>= 5 mins), then this will be considered as an abnormal activity and an alert will be generated along with the log being maintained in a file. 
+
+## Demo Video:
+![Alt Text](https://github.com/HxnDev/HospitalAid/blob/main/Features/Nursing%20Counter%20Monitoring/Extras/counter.gif)
