@@ -1,28 +1,16 @@
 # Social Distancing Monitoring
 
 <p align="center">
-  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Social%20Distancing%20Monitoring/Extras/social-distancing-detector-using-tensorflow-object-detection-model.jpg">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Social%20Distancing%20Monitoring/Extras/social-distancing-detector-using-tensorflow-object-detection-model.jpg">
 </p>
 
 ## Description:
 It is critical for a hospital reception and nursing station to be manned at all times, so any patient may be attended to in their time of need. Our model is trained to monitor these environments (or similar..) and observe the presence of people. If the reception or stations are empty, then a note will be made of the incident and reported to the administration.
 
 ## Dataset:
-For this we are using a combination of two different datsets:
-- Hospital CCTV Footage of Reception
-- Manually recorded videos of Nursing Counter.
+For the pre-processing of dataset, we first needed to gather the dataset. For this, we used Microsoft’s COCO dataset . 
 
-The nursing counter one was recorded manually under proper supervision and we now have following type of data:
-- Empty Station (No person)
-- 1 person at the station
-- 2 people at the station
-- 3 people at the station
-- 4 people at the station
-- Random number of people sitting and standing at the station
-
-The diversity and variety of our dataset allows for a better, smarter model.Our dataset has been annotated using [Roboflow](https://roboflow.com/) - additionally, we also augmented it to increase size and variety of training data.
-
-For pre-processing and augumentation, following actions were performed:
+The pre-processing steps are as follows:
 
 #### Pre-Processing:
 - Size reduced from 4000x1800 to 800x360 keeping the same aspect ratio
@@ -33,20 +21,15 @@ For pre-processing and augumentation, following actions were performed:
 - Grayscale applied to 20% of the images
 - Hue between -17% to +17%
 
-After applying all the above our dataset consisted of the following:
-- Training Set: 2.2k images (88%)
-- Validation Set: 206 (8%)
-- Test Set: 103 (4%)
 
 #### Download Format:
-The downloaded format of our dataset is "YOLOv3 Darknet Txt Format".
+The downloaded format of our dataset is "YOLOv5 PyTorch Txt Format".
 
 #### Links to Dataset:
-- Github Link: [Nursing Counter Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Nursing%20Counter%20Monitoring/dataset) 
-- Drive Link: [Nursing Counter Dataset - Google Drive](https://drive.google.com/drive/u/1/folders/1rMW2RIcD7rUYIvIOQ-gMUguEaf8eb14j)
-- Roboflow Link: [Nursing Counter Dataset - Roboflow](https://app.roboflow.com/project/empty-station-detection/7)
-
+- Github Link: [Social Distancing Dataset - GitHub](https://github.com/HxnDev/HospitalAid/tree/main/Features/Social%20Distancing%20Monitoring/Dataset)
 
 ## Implementation
-Our model was built using the PyTorch implementation of YOLOv5. Environment used was Google Colab, with Tesla K80 as the GPU.
-The model was trained to detect the presence of 1 or more people by training it on a fully annotated dataset of empty as well as occupied nursing stations and receptions.
+Once we were done with the pre-processing of dataset, the next thing we needed to do was to train our model and design an implementation logic for our model. The logic that we decided was that first of all we needed to detect every person in the given frame. So, for this we used COCO’s pre-trained weights to detect people. Once every person was detected, we were calculating the center point of each person. Then the next step was to calculate the Euclidian Distance between two center points. If the distance is less than the set threshold i.e., 150, then it will be marked as a violation of social distancing, else it’s perfectly normal.
+
+## Demo Video:
+![Alt Text](https://github.com/HxnDev/HospitalAid/blob/main/Features/Social%20Distancing%20Monitoring/Extras/social_distancing.gif)
