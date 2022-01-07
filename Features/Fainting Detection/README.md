@@ -1,7 +1,7 @@
 # Fainting Detection
 
 <p align="center">
-  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Fainting%20Detection/Extras/faint.png" width=400 height=500>
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Fainting%20Detection/Extras/faint.png" width=200 height=300>
 </p>
 
 ## Description:
@@ -43,5 +43,6 @@ The overall algorithm can be summarized as:
 -	Label the frame and write the output frame to disk
 
 ## Demo Video:
-
-![Alt Text](https://github.com/HxnDev/HospitalAid/blob/main/Features/Fainting%20Detection/Extras/fainting.gif)
+<p align="center">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Fainting%20Detection/Extras/fainting.gif" alt="animated" width=600 height=300>
+</p>
