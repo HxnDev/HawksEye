@@ -1,7 +1,7 @@
 # Mask Detection
 
 <p align="center">
-  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Face%20Mask%20Monitoring/Extras/mask-detection-sample.jpg">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Face%20Mask%20Monitoring/Extras/mask-detection-sample.jpg" width=400 height=300>
 </p>
 
 ## Description:
@@ -37,4 +37,7 @@ The downloaded format of our dataset is "YOLOv5 PyTorch Txt Format".
 Once we were done with the pre-processing of dataset, the next thing we needed to do was to train our model and design an implementation logic for our model. The logic that we decided was that we had 2 classes : Mask and No-Mask. Our model detects faces and then passes them through the classifier. It will predict the class above a certain threshold which we had set to 0.5 for better predictions.
 
 ## Demo Video:
-![Alt Text](https://github.com/HxnDev/HospitalAid/blob/main/Features/Face%20Mask%20Monitoring/Extras/mask.gif)
+<p align="center">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Face%20Mask%20Monitoring/Extras/mask.gif" alt="animated" width=600 height=300>
+</p>
+
