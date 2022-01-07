@@ -1,7 +1,7 @@
 # Nursing Counter Monitoring
 
 <p align="center">
-  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Nursing%20Counter%20Monitoring/Extras/vastu-1581470219.jpg">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Nursing%20Counter%20Monitoring/Extras/vastu-1581470219.jpg" width=500 height=300>
 </p>
 
 ## Description:
@@ -44,4 +44,6 @@ The downloaded format of our dataset is "YOLOv5 PyTorch Txt Format".
 Once we were done with the pre-processing of dataset, the next thing we needed to do was to train our model and design an implementation logic for our model. The logic that we decided was that if even a single person is detected on the counter, then this will be a normal activity for us but if our model is unable to detect any person for a reserved period of time (>= 5 mins), then this will be considered as an abnormal activity and an alert will be generated along with the log being maintained in a file. 
 
 ## Demo Video:
-![Alt Text](https://github.com/HxnDev/HospitalAid/blob/main/Features/Nursing%20Counter%20Monitoring/Extras/counter.gif)
+<p align="center">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Nursing%20Counter%20Monitoring/Extras/counter.gif" alt="animated" width=600 height=300>
+</p>
