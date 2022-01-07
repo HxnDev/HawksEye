@@ -1,7 +1,7 @@
 # Choking Detection
 
 <p align="center">
-  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Choking%20Detection/Extras/choke.png">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Choking%20Detection/Extras/choke.png" width=200, height=300>
 </p>
 
 ## Description:
@@ -45,5 +45,7 @@ The overall algorithm can be summarized as:
 -	Label the frame and write the output frame to disk
 
 ## Demo Video:
+<p align="center">
+  <img src="https://github.com/HxnDev/HospitalAid/blob/main/Features/Choking%20Detection/Extras/choking.gif" alt="animated" width=600 height=300>
+</p>
 
-![Alt Text](https://github.com/HxnDev/HospitalAid/blob/main/Features/Choking%20Detection/Extras/choking.gif)
