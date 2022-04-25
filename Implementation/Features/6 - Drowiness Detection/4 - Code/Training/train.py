@@ -29,7 +29,7 @@ epochs = args["epochs"]
 batch_size = 32
 ################################################################################
 
-LABELS = set(["Fainting", "notFainting"])										# Initializing labels from the set (The labels should match the folder names in dataset)
+LABELS = set(["Drowsy", "notDrowsy"])										# Initializing labels from the set (The labels should match the folder names in dataset)
 imagePaths = list(paths.list_images(args["dataset"]))							# Loading the images from our dataset
 
 model = model.ActivityModel(batch_size)
