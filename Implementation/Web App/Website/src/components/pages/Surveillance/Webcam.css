@@ -1,0 +1,17 @@
+.webcam-container {
+    background-color: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.webcam {
+    width: 700px;
+    margin-left: -200px;
+    margin-right: -100px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    border: 0;
+    display: flex;
+  }
