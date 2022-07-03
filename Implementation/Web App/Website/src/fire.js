@@ -2,13 +2,13 @@ import firebase from 'firebase';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyDwXPM5WreD45w9BIthuXKud78SAaAsc3o",
-    authDomain: "login-c840a.firebaseapp.com",
-    projectId: "login-c840a",
-    storageBucket: "login-c840a.appspot.com",
-    messagingSenderId: "729700661460",
-    appId: "1:729700661460:web:0a3aaad3bdd829d9f66341"
-  };
+  apiKey: "AIzaSyDihLI0AWX1mgkkhuS-iqX2uO5_CwH_YvI",
+  authDomain: "hospitalaid-f6855.firebaseapp.com",
+  projectId: "hospitalaid-f6855",
+  storageBucket: "hospitalaid-f6855.appspot.com",
+  messagingSenderId: "700688388064",
+  appId: "1:700688388064:web:a58ffe819a4794e7dee585"
+};
 
   // Initialize Firebase
   const fire = firebase.initializeApp(firebaseConfig);
